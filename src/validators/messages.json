@@ -1,0 +1,102 @@
+{
+    "isRequired": {
+        "pt": {
+            "message": "Campo obrigatório {campo} está vazio!"
+        }
+    },
+    "invalid": {
+        "pt": {
+            "message": "Campo {campo} inválido!"
+        }
+    },
+    "hasMinLen": {
+        "pt": {
+            "message": "Campo {campo} deve conter no mínimo {extra} caracteres!"
+        }
+    },
+    "hasMaxLen": {
+        "pt": {
+            "message": "Campo {campo} deve conter no máximo {extra} caracteres!"
+        }
+    },
+    "isFixedLen": {
+        "pt": {
+            "message": "Campo {campo} deve conter precisamente {extra} caracteres!"
+        }
+    },
+    "isEmail": {
+        "pt": {
+            "message": "Endereço e-mail inválido!"
+        }
+    },
+    "passwordRequisites": {
+        "pt": {
+            "message": "Senha deve conter pelo menos: 8 caracteres, 1 caracter especial e 1 letra maiúscula."
+        }
+    },
+    "imgFormatInvalid": {
+        "pt": {
+            "message": "Formato da imagem inválido. Formatos suportados: jpeg, jpg, png, gif."
+        }
+    },
+    "imgTooBig": {
+        "pt": {
+            "message": "Imagem não pode ter mais do que 10MB."
+        }
+    },
+    "validateUrl": {
+        "pt": {
+            "message": "URL inválida."
+        }
+    },
+    "validateVideo": {
+        "pt": {
+            "message": "URL do vídeo inválida. URL deve ser do YouTube ou Vimeo."
+        }
+    },
+    "catch": {
+        "pt": {
+            "message": "Ops! Algo deu errado."
+        }
+    },
+    "notFound": {
+        "pt": {
+            "message": "{campo} não encontrado(a)!"
+        }
+    },
+    "emailAlreadyRegistered": {
+        "pt": {
+            "message": "E-mail informado já cadastrado."
+        }
+    },
+    "loginFailed": {
+        "pt": {
+            "message": "Login falhou. Senha e/ou e-mail incorreto(s)."
+        }
+    },
+    "accessDenied": {
+        "pt": {
+            "message": "Acesso negado."
+        }
+    },
+    "changePasswordAlreadyExist": {
+        "pt": {
+            "message": "Uma requisição ativa para troca de senha já existe para este usuário. Por favor, cheque sua caixa de entrada."
+        }
+    },
+    "changePasswordCodeExpired": {
+        "pt": {
+            "message": "Requisição para mudança de senha expirado. Por favor, faça-o novamente."
+        }
+    },
+    "imageNotUploaded": {
+        "pt": {
+            "message": "Erro ao subir imagem(ns)."
+        }
+    },
+    "passwordConfirmPassword": {
+        "pt": {
+            "message": "Senhas informadas devem ser iguais."
+        }
+    }
+}

@@ -1,27 +1,20 @@
-# Prova de Backend
+## Resumo de dependências
+1. Jest 
+2. Sequelize
+3. JWT
+4. Express
 
-O projeto inicial é um cadastro de usuários em memória muito simples e sem utilizar nenhuma lib. Apesar de o código estar em qualidade baixa, o projeto está funcional. O que se espera é que o candidato melhore este código de uma maneira que possamos avaliar suas habilidades e competências.
-
+## Requisitos
+1. Criar um schema no banco de dados local MySql, informações sobre detalhes da conexão em `config.json`
+2. Executar as migrations na raíz do projeto com o comando `npx sequelize db:migrate`
+3. Instalar as dependências executando na raíz do projeto o comando `npm install`
+4. Insomnia, caso queira importar as requições usadas no projeto em `Insomnia_helppers.json` 
 ### Rodando o projeto
 
-`node src/index.js`
+`npm run dev`
 
-## O que será avaliado?
+### Rodando os testes
 
-A idéia é deixar o candidato bem livre pra reimplementar o código da maneira que mais lhe for conveniente e que mais demonstre suas habilidades. Está liberado o uso de libs de terceiros, bancos de dados, autenticação, etc.
+`npm test`
 
-1. Qualidade de código
-2. Uso de patterns adequados
-3. Estratégia de validação de dados
-4. Testes unitários
 
-## O que é desejado (não obrigatório) na entrega?
-
-1. Adição de Banco de dados
-2. Utilização de docker
-3. Autenticação
-4. Utilização de typescript
-
-## Como será feita a entrega?
-
-Deverá ser realizado um fork deste repositório e no formulário enviado você deverá responder com o link deste fork.
